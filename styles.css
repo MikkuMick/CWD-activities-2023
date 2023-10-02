@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 200;
+}
+h1, h2, h3, h4, h5, h6, i{
+    color: #ee6e73;
+}
+
+.stock-link {
+    font-weight: 450;
+    font-size: 11px;
+}
+
+.stock-img {
+    margin: 20px 0px 10px;
+}
+
+.adobe-stock {
+    position: sticky;
+    top: 0;
+}
+
+.note {
+    font-size: 12px;
+}
+
+.flow-text {
+    font-weight: 380;
+}
+
+.ept {
+    font-weight: 500;
+}
+

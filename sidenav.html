@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/423584c6ee.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Sidenav</title>
+</head>
+
+<body>
+    <nav class="blue darken-3">
+        <!-- navbar content here  -->
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="facebook.com" class="brand-logo left" target="_blank"><i
+                        class="fa-brands fa-facebook white-text"></i></a>
+
+                <ul id="nav-mobile" class="right hide-on-small-only">
+                    <li>
+                        <a href="https://fontawesome.com/kits" target="_blank"><i
+                                class="fa-solid fa-comment white-text"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://fontawesome.com/icons" target="_blank"><i
+                                class="fa-regular fa-bell white-text"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://fontawesome.com/docs" target="_blank"><i
+                                class="fa-solid fa-user white-text"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="https://www.facebook.com/mick.arganosa" target="_blank"><img class="circle"
+                        src="images/img3.jpg"></a>
+                <a href="#name"><span class="black-text name">Mirick Argañosa</span></a>
+            </div>
+        </li>
+        <div class="divider"></div>
+        <li><a href="https://www.facebook.com/mick.arganosa"><i class="fa-solid fa-user"></i>Profile</a></li>
+        <li><a
+                href="https://www.google.com/search?q=settings&oq=settings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDzSAQgyNzQxajBqMagCALACAA&sourceid=chrome&ie=UTF-8"><i
+                    class="fa-solid fa-gear"></i>Settings</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fa-solid fa-bars black-text">Menu</i></a>
+
+
+
+
+
+
+
+
+
+
+    <div style="height: 1000px;"></div>
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            // side nav
+            $('.sidenav').sidenav();
+        });
+
+    </script>
+</body>
+
+</html>
